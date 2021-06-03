@@ -5,9 +5,138 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(16, 16, 31, 0.829);
+}
+.title{
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+ 
+}
+.title h2{
+  margin-bottom: 0px;
+}
+.title h3{
+  margin-top: 0px;
+}
+.card{
+  margin-left: 12.5%;
+  margin-top: 35px;
+ 
+}
+.cards{
+  
+  width: 25%;
+  height: 250px;
+  text-align: center;
+  float: left;
+  margin: 20px;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cards h4{
+  color: white;
+  font-size: 26px;
+  width: 90%;
+}
+.cards span{
+  font-size: 18px;
+}
+.cards h2{
+  color: antiquewhite;
+  font-size: 40px ;
+  box-shadow: rgba(0, 0, 0, 0.5);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.692);
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  
+
+}
+
+
+
+@media only screen and (max-width:1040px){
+  .cards{
+      
+    
+      width: 40%;
+     height: 200px;
+  text-align: center;
+  float: left;
+  margin: 15px;
+  }
+  .cards h2{
+    
+    font-size: 36px;
+}
+.cards h4{
+
+  font-size: 26px;
+}
+  .title{
+      font-size: 25px;
+
+  }
+  .card{
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width:740px){
+  .cards{
+      
+    
+      width: 40%;
+     height: 200px;
+  text-align: center;
+  float: left;
+  margin: 15px;
+  }
+  .cards h2{
+    
+    font-size: 32px;
+}
+.cards h4{
+
+  font-size: 22px;
+}
+  .title{
+      font-size: 25px;
+
+  }
+  .card{
+    text-align: center;
+  }
+
+}
+@media only screen and (max-width:540px){
+  .cards{
+      
+    
+      width: 70%;
+     height: 200px;
+  text-align: center;
+  
+  margin: 15px;
+  }
+  .cards h2{
+    
+    font-size: 36px;
+}
+.cards h4{
+
+  font-size: 26px;
+}
+  .title{
+      font-size: 25px;
+
+  }
+  .card{
+    text-align: center;
+  }
+
 }
